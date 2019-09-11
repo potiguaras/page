@@ -1,0 +1,580 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/page/favicon.ico"><title>potiguaras.github.io</title><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css"><link href="/page/css/app.53ab0ab0.css" rel="preload" as="style"><link href="/page/css/chunk-vendors.5eeb4a1c.css" rel="preload" as="style"><link href="/page/js/app.33f8c5ca.js" rel="preload" as="script"><link href="/page/js/chunk-vendors.c9978fb9.js" rel="preload" as="script"><link href="/page/css/chunk-vendors.5eeb4a1c.css" rel="stylesheet"><link href="/page/css/app.53ab0ab0.css" rel="stylesheet"><style type="text/css" id="vuetify-theme-stylesheet">.v-application a { color: #ffeb3b; }
+.v-application .primary {
+  background-color: #ffeb3b !important;
+  border-color: #ffeb3b !important;
+}
+.v-application .primary--text {
+  color: #ffeb3b !important;
+  caret-color: #ffeb3b !important;
+}
+.v-application .primary.lighten-5 {
+  background-color: #fffde7 !important;
+  border-color: #fffde7 !important;
+}
+.v-application .primary--text.text--lighten-5 {
+  color: #fffde7 !important;
+  caret-color: #fffde7 !important;
+}
+.v-application .primary.lighten-4 {
+  background-color: #fff9c4 !important;
+  border-color: #fff9c4 !important;
+}
+.v-application .primary--text.text--lighten-4 {
+  color: #fff9c4 !important;
+  caret-color: #fff9c4 !important;
+}
+.v-application .primary.lighten-3 {
+  background-color: #fff59d !important;
+  border-color: #fff59d !important;
+}
+.v-application .primary--text.text--lighten-3 {
+  color: #fff59d !important;
+  caret-color: #fff59d !important;
+}
+.v-application .primary.lighten-2 {
+  background-color: #fff176 !important;
+  border-color: #fff176 !important;
+}
+.v-application .primary--text.text--lighten-2 {
+  color: #fff176 !important;
+  caret-color: #fff176 !important;
+}
+.v-application .primary.lighten-1 {
+  background-color: #ffee58 !important;
+  border-color: #ffee58 !important;
+}
+.v-application .primary--text.text--lighten-1 {
+  color: #ffee58 !important;
+  caret-color: #ffee58 !important;
+}
+.v-application .primary.darken-1 {
+  background-color: #fdd835 !important;
+  border-color: #fdd835 !important;
+}
+.v-application .primary--text.text--darken-1 {
+  color: #fdd835 !important;
+  caret-color: #fdd835 !important;
+}
+.v-application .primary.darken-2 {
+  background-color: #fbc02d !important;
+  border-color: #fbc02d !important;
+}
+.v-application .primary--text.text--darken-2 {
+  color: #fbc02d !important;
+  caret-color: #fbc02d !important;
+}
+.v-application .primary.darken-3 {
+  background-color: #f9a825 !important;
+  border-color: #f9a825 !important;
+}
+.v-application .primary--text.text--darken-3 {
+  color: #f9a825 !important;
+  caret-color: #f9a825 !important;
+}
+.v-application .primary.darken-4 {
+  background-color: #f57f17 !important;
+  border-color: #f57f17 !important;
+}
+.v-application .primary--text.text--darken-4 {
+  color: #f57f17 !important;
+  caret-color: #f57f17 !important;
+}
+.v-application .secondary {
+  background-color: #616161 !important;
+  border-color: #616161 !important;
+}
+.v-application .secondary--text {
+  color: #616161 !important;
+  caret-color: #616161 !important;
+}
+.v-application .secondary.lighten-5 {
+  background-color: #e6e6e6 !important;
+  border-color: #e6e6e6 !important;
+}
+.v-application .secondary--text.text--lighten-5 {
+  color: #e6e6e6 !important;
+  caret-color: #e6e6e6 !important;
+}
+.v-application .secondary.lighten-4 {
+  background-color: #c9c9c9 !important;
+  border-color: #c9c9c9 !important;
+}
+.v-application .secondary--text.text--lighten-4 {
+  color: #c9c9c9 !important;
+  caret-color: #c9c9c9 !important;
+}
+.v-application .secondary.lighten-3 {
+  background-color: #aeaeae !important;
+  border-color: #aeaeae !important;
+}
+.v-application .secondary--text.text--lighten-3 {
+  color: #aeaeae !important;
+  caret-color: #aeaeae !important;
+}
+.v-application .secondary.lighten-2 {
+  background-color: #949494 !important;
+  border-color: #949494 !important;
+}
+.v-application .secondary--text.text--lighten-2 {
+  color: #949494 !important;
+  caret-color: #949494 !important;
+}
+.v-application .secondary.lighten-1 {
+  background-color: #7a7a7a !important;
+  border-color: #7a7a7a !important;
+}
+.v-application .secondary--text.text--lighten-1 {
+  color: #7a7a7a !important;
+  caret-color: #7a7a7a !important;
+}
+.v-application .secondary.darken-1 {
+  background-color: #494949 !important;
+  border-color: #494949 !important;
+}
+.v-application .secondary--text.text--darken-1 {
+  color: #494949 !important;
+  caret-color: #494949 !important;
+}
+.v-application .secondary.darken-2 {
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+}
+.v-application .secondary--text.text--darken-2 {
+  color: #333333 !important;
+  caret-color: #333333 !important;
+}
+.v-application .secondary.darken-3 {
+  background-color: #1e1e1e !important;
+  border-color: #1e1e1e !important;
+}
+.v-application .secondary--text.text--darken-3 {
+  color: #1e1e1e !important;
+  caret-color: #1e1e1e !important;
+}
+.v-application .secondary.darken-4 {
+  background-color: #040404 !important;
+  border-color: #040404 !important;
+}
+.v-application .secondary--text.text--darken-4 {
+  color: #040404 !important;
+  caret-color: #040404 !important;
+}
+.v-application .accent {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .accent--text {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .accent.lighten-5 {
+  background-color: #777777 !important;
+  border-color: #777777 !important;
+}
+.v-application .accent--text.text--lighten-5 {
+  color: #777777 !important;
+  caret-color: #777777 !important;
+}
+.v-application .accent.lighten-4 {
+  background-color: #5e5e5e !important;
+  border-color: #5e5e5e !important;
+}
+.v-application .accent--text.text--lighten-4 {
+  color: #5e5e5e !important;
+  caret-color: #5e5e5e !important;
+}
+.v-application .accent.lighten-3 {
+  background-color: #474747 !important;
+  border-color: #474747 !important;
+}
+.v-application .accent--text.text--lighten-3 {
+  color: #474747 !important;
+  caret-color: #474747 !important;
+}
+.v-application .accent.lighten-2 {
+  background-color: #303030 !important;
+  border-color: #303030 !important;
+}
+.v-application .accent--text.text--lighten-2 {
+  color: #303030 !important;
+  caret-color: #303030 !important;
+}
+.v-application .accent.lighten-1 {
+  background-color: #1b1b1b !important;
+  border-color: #1b1b1b !important;
+}
+.v-application .accent--text.text--lighten-1 {
+  color: #1b1b1b !important;
+  caret-color: #1b1b1b !important;
+}
+.v-application .accent.darken-1 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .accent--text.text--darken-1 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .accent.darken-2 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .accent--text.text--darken-2 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .accent.darken-3 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .accent--text.text--darken-3 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .accent.darken-4 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .accent--text.text--darken-4 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .error {
+  background-color: #ff1744 !important;
+  border-color: #ff1744 !important;
+}
+.v-application .error--text {
+  color: #ff1744 !important;
+  caret-color: #ff1744 !important;
+}
+.v-application .error.lighten-5 {
+  background-color: #ffc3c3 !important;
+  border-color: #ffc3c3 !important;
+}
+.v-application .error--text.text--lighten-5 {
+  color: #ffc3c3 !important;
+  caret-color: #ffc3c3 !important;
+}
+.v-application .error.lighten-4 {
+  background-color: #ffa5a8 !important;
+  border-color: #ffa5a8 !important;
+}
+.v-application .error--text.text--lighten-4 {
+  color: #ffa5a8 !important;
+  caret-color: #ffa5a8 !important;
+}
+.v-application .error.lighten-3 {
+  background-color: #ff868e !important;
+  border-color: #ff868e !important;
+}
+.v-application .error--text.text--lighten-3 {
+  color: #ff868e !important;
+  caret-color: #ff868e !important;
+}
+.v-application .error.lighten-2 {
+  background-color: #ff6774 !important;
+  border-color: #ff6774 !important;
+}
+.v-application .error--text.text--lighten-2 {
+  color: #ff6774 !important;
+  caret-color: #ff6774 !important;
+}
+.v-application .error.lighten-1 {
+  background-color: #ff455c !important;
+  border-color: #ff455c !important;
+}
+.v-application .error--text.text--lighten-1 {
+  color: #ff455c !important;
+  caret-color: #ff455c !important;
+}
+.v-application .error.darken-1 {
+  background-color: #de002e !important;
+  border-color: #de002e !important;
+}
+.v-application .error--text.text--darken-1 {
+  color: #de002e !important;
+  caret-color: #de002e !important;
+}
+.v-application .error.darken-2 {
+  background-color: #bd0019 !important;
+  border-color: #bd0019 !important;
+}
+.v-application .error--text.text--darken-2 {
+  color: #bd0019 !important;
+  caret-color: #bd0019 !important;
+}
+.v-application .error.darken-3 {
+  background-color: #9d0001 !important;
+  border-color: #9d0001 !important;
+}
+.v-application .error--text.text--darken-3 {
+  color: #9d0001 !important;
+  caret-color: #9d0001 !important;
+}
+.v-application .error.darken-4 {
+  background-color: #7d0000 !important;
+  border-color: #7d0000 !important;
+}
+.v-application .error--text.text--darken-4 {
+  color: #7d0000 !important;
+  caret-color: #7d0000 !important;
+}
+.v-application .info {
+  background-color: #2196f3 !important;
+  border-color: #2196f3 !important;
+}
+.v-application .info--text {
+  color: #2196f3 !important;
+  caret-color: #2196f3 !important;
+}
+.v-application .info.lighten-5 {
+  background-color: #d4ffff !important;
+  border-color: #d4ffff !important;
+}
+.v-application .info--text.text--lighten-5 {
+  color: #d4ffff !important;
+  caret-color: #d4ffff !important;
+}
+.v-application .info.lighten-4 {
+  background-color: #b5ffff !important;
+  border-color: #b5ffff !important;
+}
+.v-application .info--text.text--lighten-4 {
+  color: #b5ffff !important;
+  caret-color: #b5ffff !important;
+}
+.v-application .info.lighten-3 {
+  background-color: #95e8ff !important;
+  border-color: #95e8ff !important;
+}
+.v-application .info--text.text--lighten-3 {
+  color: #95e8ff !important;
+  caret-color: #95e8ff !important;
+}
+.v-application .info.lighten-2 {
+  background-color: #75ccff !important;
+  border-color: #75ccff !important;
+}
+.v-application .info--text.text--lighten-2 {
+  color: #75ccff !important;
+  caret-color: #75ccff !important;
+}
+.v-application .info.lighten-1 {
+  background-color: #51b0ff !important;
+  border-color: #51b0ff !important;
+}
+.v-application .info--text.text--lighten-1 {
+  color: #51b0ff !important;
+  caret-color: #51b0ff !important;
+}
+.v-application .info.darken-1 {
+  background-color: #007cd6 !important;
+  border-color: #007cd6 !important;
+}
+.v-application .info--text.text--darken-1 {
+  color: #007cd6 !important;
+  caret-color: #007cd6 !important;
+}
+.v-application .info.darken-2 {
+  background-color: #0064ba !important;
+  border-color: #0064ba !important;
+}
+.v-application .info--text.text--darken-2 {
+  color: #0064ba !important;
+  caret-color: #0064ba !important;
+}
+.v-application .info.darken-3 {
+  background-color: #004d9f !important;
+  border-color: #004d9f !important;
+}
+.v-application .info--text.text--darken-3 {
+  color: #004d9f !important;
+  caret-color: #004d9f !important;
+}
+.v-application .info.darken-4 {
+  background-color: #003784 !important;
+  border-color: #003784 !important;
+}
+.v-application .info--text.text--darken-4 {
+  color: #003784 !important;
+  caret-color: #003784 !important;
+}
+.v-application .success {
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+}
+.v-application .success--text {
+  color: #4caf50 !important;
+  caret-color: #4caf50 !important;
+}
+.v-application .success.lighten-5 {
+  background-color: #dcffd6 !important;
+  border-color: #dcffd6 !important;
+}
+.v-application .success--text.text--lighten-5 {
+  color: #dcffd6 !important;
+  caret-color: #dcffd6 !important;
+}
+.v-application .success.lighten-4 {
+  background-color: #beffba !important;
+  border-color: #beffba !important;
+}
+.v-application .success--text.text--lighten-4 {
+  color: #beffba !important;
+  caret-color: #beffba !important;
+}
+.v-application .success.lighten-3 {
+  background-color: #a2ff9e !important;
+  border-color: #a2ff9e !important;
+}
+.v-application .success--text.text--lighten-3 {
+  color: #a2ff9e !important;
+  caret-color: #a2ff9e !important;
+}
+.v-application .success.lighten-2 {
+  background-color: #85e783 !important;
+  border-color: #85e783 !important;
+}
+.v-application .success--text.text--lighten-2 {
+  color: #85e783 !important;
+  caret-color: #85e783 !important;
+}
+.v-application .success.lighten-1 {
+  background-color: #69cb69 !important;
+  border-color: #69cb69 !important;
+}
+.v-application .success--text.text--lighten-1 {
+  color: #69cb69 !important;
+  caret-color: #69cb69 !important;
+}
+.v-application .success.darken-1 {
+  background-color: #2d9437 !important;
+  border-color: #2d9437 !important;
+}
+.v-application .success--text.text--darken-1 {
+  color: #2d9437 !important;
+  caret-color: #2d9437 !important;
+}
+.v-application .success.darken-2 {
+  background-color: #00791e !important;
+  border-color: #00791e !important;
+}
+.v-application .success--text.text--darken-2 {
+  color: #00791e !important;
+  caret-color: #00791e !important;
+}
+.v-application .success.darken-3 {
+  background-color: #006000 !important;
+  border-color: #006000 !important;
+}
+.v-application .success--text.text--darken-3 {
+  color: #006000 !important;
+  caret-color: #006000 !important;
+}
+.v-application .success.darken-4 {
+  background-color: #004700 !important;
+  border-color: #004700 !important;
+}
+.v-application .success--text.text--darken-4 {
+  color: #004700 !important;
+  caret-color: #004700 !important;
+}
+.v-application .warning {
+  background-color: #fb8c00 !important;
+  border-color: #fb8c00 !important;
+}
+.v-application .warning--text {
+  color: #fb8c00 !important;
+  caret-color: #fb8c00 !important;
+}
+.v-application .warning.lighten-5 {
+  background-color: #ffff9e !important;
+  border-color: #ffff9e !important;
+}
+.v-application .warning--text.text--lighten-5 {
+  color: #ffff9e !important;
+  caret-color: #ffff9e !important;
+}
+.v-application .warning.lighten-4 {
+  background-color: #fffb82 !important;
+  border-color: #fffb82 !important;
+}
+.v-application .warning--text.text--lighten-4 {
+  color: #fffb82 !important;
+  caret-color: #fffb82 !important;
+}
+.v-application .warning.lighten-3 {
+  background-color: #ffdf67 !important;
+  border-color: #ffdf67 !important;
+}
+.v-application .warning--text.text--lighten-3 {
+  color: #ffdf67 !important;
+  caret-color: #ffdf67 !important;
+}
+.v-application .warning.lighten-2 {
+  background-color: #ffc24b !important;
+  border-color: #ffc24b !important;
+}
+.v-application .warning--text.text--lighten-2 {
+  color: #ffc24b !important;
+  caret-color: #ffc24b !important;
+}
+.v-application .warning.lighten-1 {
+  background-color: #ffa72d !important;
+  border-color: #ffa72d !important;
+}
+.v-application .warning--text.text--lighten-1 {
+  color: #ffa72d !important;
+  caret-color: #ffa72d !important;
+}
+.v-application .warning.darken-1 {
+  background-color: #db7200 !important;
+  border-color: #db7200 !important;
+}
+.v-application .warning--text.text--darken-1 {
+  color: #db7200 !important;
+  caret-color: #db7200 !important;
+}
+.v-application .warning.darken-2 {
+  background-color: #bb5900 !important;
+  border-color: #bb5900 !important;
+}
+.v-application .warning--text.text--darken-2 {
+  color: #bb5900 !important;
+  caret-color: #bb5900 !important;
+}
+.v-application .warning.darken-3 {
+  background-color: #9d4000 !important;
+  border-color: #9d4000 !important;
+}
+.v-application .warning--text.text--darken-3 {
+  color: #9d4000 !important;
+  caret-color: #9d4000 !important;
+}
+.v-application .warning.darken-4 {
+  background-color: #802700 !important;
+  border-color: #802700 !important;
+}
+.v-application .warning--text.text--darken-4 {
+  color: #802700 !important;
+  caret-color: #802700 !important;
+}</style></head><body><noscript><strong>We're sorry but potiguaras.github.io doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div data-app="true" class="v-application v-application--is-ltr theme--light" id="app"><div class="v-application--wrap"><header class="v-sheet v-sheet--tile theme--light v-toolbar v-app-bar v-app-bar--elevate-on-scroll v-app-bar--fixed v-app-bar--hide-shadow primary darken-2" style="height: 56px; margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px;" data-booted="true"><div class="v-toolbar__content" style="height: 56px;"><div class="v-toolbar__title headline text-uppercase"><h1 class="headline">Potiguaras Valley</h1></div><div class="spacer"></div></div></header><main class="v-content" style="padding: 56px 0px 0px;" data-booted="true"><div class="v-content__wrap"><div class="container container--fluid pt-0"><section class="row primary darken-2 text-center"><div class="col"><div class="row"><div class="d-flex align-end col"><div class="v-responsive v-image" style="height: 200px;"><div class="v-responsive__sizer" style="padding-bottom: 100%;"></div><div class="v-image__image v-image__image--preload v-image__image--contain fade-transition-leave-active fade-transition-leave-to" style="background-position: center center;"></div><div class="v-image__image v-image__image--contain" style="background-image: url(&quot;http://localhost:8000/page/img/icon.97d2245e.png&quot;); background-position: center center;"></div><div class="v-responsive__content" style="width: 1276px;"></div></div></div></div><div class="row"><div class="col"><h2 class="display-4 d-none d-md-block font-weight-bold">Potiguaras Valley</h2><h2 class="display-3 d-md-none font-weight-bold">Potiguaras Valley</h2></div></div></div></section><section class="row text-justify align-center"><div class="col-sm-6 col"><h2 class="display-3 text-center">Quem Somos</h2><br><p class="body-1">
+            A Potiguaras Valley é a Comunidade empreendedora de inovação 
+            e startups da Região do Seridó e Trairí do Rio Grande do Norte; 
+            que tem como intuito reunir startups locais e capacitar pessoas 
+            que desejam empreender de uma forma inovadora e criativa.
+          </p><p>
+            Além disso, a Comunidade visa criar um movimento de desenvolvimento 
+            do Ecossistema por meio de eventos que despertem o mercado de startups 
+            e gerem perspectivas inovadoras para novos negócios e, a partir disso, 
+            contribuir com o desenvolvimento econômico da região interiorana.
+          </p></div></section><section class="row primary darken-2 text-center align-center"><div class="col"><h2 class="display-3 text-center">Valores</h2><br><div class="row justify-space-around"><div class="col-sm-3 col-12"><h3 class="text-uppercase">Coragem</h3><p>
+                Porque é necessário sermos determinados para mudarmos nossa realidade;
+              </p></div><div class="col-sm-3 col-12"><h3 class="text-uppercase">Diversidade</h3><p>
+                Sabemos que as diferenças são essenciais para a troca de conhecimento;
+              </p></div></div><div class="row justify-space-around"><div class="col-sm-3 col-12"><h3 class="text-uppercase">Empatia</h3><p>
+                Colocar-se no lugar do outro é indispensável para termos espírito 
+                de comunidade e bem comum;
+              </p></div><div class="col-sm-3 col-12"><h3 class="text-uppercase">Respeito</h3><p>
+                Todos na comunidade possuem vez e voz para compartilhar suas ideias.
+              </p></div></div></div></section></div></div></main></div></div><script src="/page/js/chunk-vendors.c9978fb9.js"></script><script src="/page/js/app.33f8c5ca.js"></script></body></html>
