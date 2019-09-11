@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath:'/page',
   pluginOptions: {
     prerenderSpa: {
       registry: undefined,
